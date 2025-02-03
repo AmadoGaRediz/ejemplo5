@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para la tabla */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #c60035;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .table tr:hover {
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilo para los botones */
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #6200ea;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3700b3;
+  }
+  
+  .btn-warning {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #f57c00;
+  }
+  
+  .btn-danger {
+    background-color: #e53935;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c62828;
+  }
+  
+  /* Estilo para el formulario */
+  .col-sm-4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .col-sm-4 p {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 14px;
+  }
+  
+  .form-control:focus {
+    border-color: #c60035;
+    background-color: #fff;
+  }
+  
+  button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Mensaje cuando no hay canciones */
+  .no-canciones {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el contenedor */
+  .container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
